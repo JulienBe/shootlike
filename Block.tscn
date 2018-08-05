@@ -18,14 +18,18 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
-_sections_unfolded = [ "Collision" ]
+_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
 
+position = Vector2( -0.125, 0.0625 )
+scale = Vector2( 0.817308, 0.822115 )
 shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Sprite" type="Sprite" parent="StaticBody2D" index="1"]
 
 texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 
