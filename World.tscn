@@ -11,7 +11,7 @@ position = Vector2( 211, 67 )
 
 [node name="Map" parent="." index="1" instance=ExtResource( 2 )]
 
-scale = Vector2( 10, 10 )
+scale = Vector2( 2, 2 )
 _sections_unfolded = [ "Pause", "Transform" ]
 
 

@@ -12,7 +12,7 @@ func withinButNot(low, high, lowNot, highNot):
     return within(low, high)
 
 func gauss(f):
-    return gaussian(0, 2)
+    return gaussian(0, f)
     
 func gaussian(mean, deviation):
     var x1 = null
