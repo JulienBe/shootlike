@@ -1,6 +1,6 @@
 extends Node2D
 
-const mult = 16.0 
+const mult = 1.0 
 var area
 
 func init(area):

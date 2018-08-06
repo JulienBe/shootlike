@@ -1,4 +1,5 @@
 const room = 1
+const wall = 2
 var arr = {}
 var width = 0
 
@@ -39,9 +40,9 @@ func mark_area(area, value):
         i += 1
 
 func addVal(x, y, value):
-#    var current
-#    if arr.has(convert_xy(x, y)):
-#        current = arr[convert_xy(x, y)]
-#    else:
-#        current = 0
-    arr[convert_xy(x, y)] = value
+    var current
+    if arr.has(convert_xy(x, y)):
+        current = arr[convert_xy(x, y)]
+    else:
+        current = 0
+    arr[convert_xy(x, y)] = value | current
